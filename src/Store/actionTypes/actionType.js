@@ -1,0 +1,3 @@
+export const SET_SEARCH_VALUE="SET_SEARCH_VALUE";
+export const INIT_NEW="INIT_NEW";
+export const CHANGE_THEME="CHANGE_THEME";

@@ -1,0 +1,17 @@
+.darkApp {
+  text-align: center;
+  /* background-color: rgba(5, 5, 5, 0.8); */
+  background-color: #282c34;
+  color: white;
+  height: 100%;
+  padding: 30px;
+}
+
+.lightApp{
+  text-align: center;
+  /* background-color: rgba(5, 5, 5, 0.8); */
+  background-color: white;
+  color: #282c34;
+  height: 100%;
+  padding: 30px;
+}

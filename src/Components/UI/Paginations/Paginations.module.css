@@ -1,0 +1,15 @@
+.paginations{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.paginations li{
+    margin: 30px;
+    cursor: pointer;
+}
+
+/* .paginations li{
+    margin: 30px;
+} */
