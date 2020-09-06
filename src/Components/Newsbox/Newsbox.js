@@ -5,8 +5,9 @@ import Loader from '../UI/Loader/Loader';
 
 function Newsbox(props) {
     let NewCard;
+  
     if(!props.news){
-        
+        console.log("Loader")
         NewCard=<Loader/>
     }
     else{
@@ -20,7 +21,7 @@ function Newsbox(props) {
     }
     return (
         <div className={classes.newsbox}>
-            {NewCard}
+            {props.news?NewCard:<Loader/>}
             
         </div>
     )

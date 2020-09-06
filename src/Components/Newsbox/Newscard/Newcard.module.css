@@ -12,8 +12,11 @@
 .darknewscard__content{
     background-color: rgba(235, 235, 235, 0.8);
 }
- .newscard__content p{
+ .newscard__content img + p{
      padding: auto 20px;
+     font-size: larger;
+     font-weight: 700;
+     color: red;
  }
 
  .newscard__content img{
@@ -22,14 +25,25 @@
      /* margin: auto 20px; */
  }
 
- .darknewscard__content p{
+ .darknewscard__content img + p{
     padding: auto 20px;
+    font-size: larger;
+    font-weight: 700;
+    color: green;
 }
 
 .darknewscard__content img{
     width: 100%;
        height: 200px;
     /* margin: auto 20px; */
+}
+
+.author{
+    color: blue;
+    width: 70%;
+    display: flex;
+    margin: auto 60px;
+    justify-content: flex-end;
 }
 
 @media only screen and (max-width: 950px) {

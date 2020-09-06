@@ -26,12 +26,13 @@ function Main(props) {
     const currentNews = props.news.slice(indexOfFirstNews,indexOfLastNews);
 
     let news;
-    if(props.news){
-        news=<Newsbox news={currentNews}/>
+    console.log("[props.news]",!props.news);
+    if(!props.news){
+        news=<Loader/>
     }
     else{
-        console.log("loader");
-        news=<Loader/>
+        news=<Newsbox news={currentNews}/>
+        
     }
    
     const paginate =(pageNumbet)=>{
@@ -40,7 +41,7 @@ function Main(props) {
     return (
         <Layout>
         <div className={classes.Main}>
-
+            
             {news}
             <Paginations
              newsPerPage={newsPerPage} 
